@@ -1,0 +1,53 @@
+{
+	"name": "redpill",
+	"version": "1.0.0",
+	"description": "Kill \"port already in use\" forever. A fast CLI to find and free ports.",
+	"type": "module",
+	"bin": {
+		"redpill": "./dist/index.js"
+	},
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"build": "tsup",
+		"dev": "tsup --watch",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"test:coverage": "vitest run --coverage",
+		"lint": "biome check src/",
+		"lint:fix": "biome check --write src/",
+		"format": "biome format src/",
+		"format:fix": "biome format --write src/",
+		"check": "biome check --write .",
+		"ci": "biome ci . && vitest run && tsup",
+		"prepublishOnly": "npm run build"
+	},
+	"keywords": [
+		"port",
+		"kill",
+		"process",
+		"cli",
+		"lsof",
+		"free",
+		"dev",
+		"server",
+		"listen",
+		"address-in-use"
+	],
+	"author": "",
+	"license": "MIT",
+	"engines": {
+		"node": ">=18"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.3.15",
+		"@types/node": "^25.2.3",
+		"tsup": "^8",
+		"typescript": "^5",
+		"vitest": "^4.0.18"
+	},
+	"dependencies": {
+		"picocolors": "^1"
+	}
+}
