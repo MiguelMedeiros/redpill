@@ -1,6 +1,6 @@
 <p align="center">
   <br />
-  <img src="assets/banner.png" alt="redpill" width="600" />
+  <img src="assets/banner.jpg" alt="redpill" width="600" />
   <br />
   <br />
   <code>&nbsp;💊 redpill&nbsp;</code>
