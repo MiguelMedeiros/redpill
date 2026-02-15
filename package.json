@@ -1,10 +1,10 @@
 {
-	"name": "redpill",
+	"name": "redpill-cli",
 	"version": "1.0.0",
 	"description": "Kill \"port already in use\" forever. A fast CLI to find and free ports.",
 	"type": "module",
 	"bin": {
-		"redpill": "./dist/index.js"
+		"redpill": "dist/index.js"
 	},
 	"files": [
 		"dist"
@@ -35,8 +35,16 @@
 		"listen",
 		"address-in-use"
 	],
-	"author": "",
+	"author": "Miguel Medeiros",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MiguelMedeiros/redpill.git"
+	},
+	"homepage": "https://github.com/MiguelMedeiros/redpill#readme",
+	"bugs": {
+		"url": "https://github.com/MiguelMedeiros/redpill/issues"
+	},
 	"engines": {
 		"node": ">=18"
 	},
