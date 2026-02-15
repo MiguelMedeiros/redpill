@@ -11,9 +11,9 @@
   <sub>— Morpheus</sub>
   <br />
   <br />
-  <a href="https://www.npmjs.com/package/redpill"><img src="https://img.shields.io/npm/v/redpill.svg?style=flat-square&color=cc0000" alt="npm version" /></a>
-  <a href="https://www.npmjs.com/package/redpill"><img src="https://img.shields.io/npm/dm/redpill.svg?style=flat-square&color=cc0000" alt="downloads" /></a>
-  <a href="https://github.com/miguelmedeiros/port/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/redpill.svg?style=flat-square&color=cc0000" alt="license" /></a>
+  <a href="https://www.npmjs.com/package/redpill-cli"><img src="https://img.shields.io/npm/v/redpill-cli.svg?style=flat-square&color=cc0000" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/redpill-cli"><img src="https://img.shields.io/npm/dm/redpill-cli.svg?style=flat-square&color=cc0000" alt="downloads" /></a>
+  <a href="https://github.com/MiguelMedeiros/redpill/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/redpill-cli.svg?style=flat-square&color=cc0000" alt="license" /></a>
 </p>
 
 ---
@@ -25,13 +25,13 @@
 ## Install
 
 ```bash
-npm i -g redpill
+npm i -g redpill-cli
 ```
 
 Or run directly — no install needed:
 
 ```bash
-npx redpill 3000
+npx redpill-cli 3000
 ```
 
 ## Wake Up, Neo...
